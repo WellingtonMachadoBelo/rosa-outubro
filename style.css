@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 16vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 770px) {
+  header {
+    flex-direction: column;
+    height: 25vh;
+  }
+}
+.boxLogo {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 770px) {
+  .boxLogo {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.boxLogo h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+  color: white;
+}
+
+@media (max-width: 770px) {
+  .boxLogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .boxLogo h1 {
+    font-size: 3.1vw;
+  }
+}
+.boxLogo img {
+  width: 8vw;
+}
+
+@media (max-width: 770px) {
+  .boxLogo img {
+    width: 12vw;
+  }
+}
+@media (max-width: 500px) {
+  .boxLogo img {
+    width: 15vw;
+  }
+}
+nav {
+  width: 40vw;
+}
+
+@media (max-width: 770px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 770px) {
+  nav ul {
+    justify-content: space-evenly;
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  nav ul {
+    font-size: 3vw;
+  }
+}
+nav ul li {
+  color: white;
+  cursor: pointer;
+}
+
+.firstSection {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFD9EC;
+}
+.firstSection img {
+  width: 28vw;
+  height: 40vh;
+}
+.firstSection #articleParagraf p {
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+.firstSection #articleParagraf {
+  width: 50vw;
+  margin-top: 1vh;
+}
+
+@media (max-width: 790px) {
+  .firstSection {
+    flex-direction: column;
+    height: 72vh;
+  }
+  .firstSection img {
+    width: 35vw;
+  }
+  .firstSection #articleParagraf p {
+    font-size: 1.9vw;
+    margin-top: 1vh;
+  }
+}
+@media (max-width: 680px) {
+  .firstSection {
+    height: 65vh;
+  }
+  .firstSection img {
+    height: 35vh;
+  }
+  .firstSection #articleParagraf p {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 580px) {
+  .firstSection #articleParagraf p {
+    font-size: 2.1vw;
+  }
+}
+@media (max-width: 490px) {
+  .firstSection {
+    height: 60vh;
+  }
+  .firstSection #articleParagraf p {
+    font-size: 2vh;
+  }
+  .firstSection #articleParagraf {
+    width: 61vw;
+  }
+}
+@media (max-width: 480px) {
+  .firstSection {
+    height: 59vh;
+  }
+  .firstSection img {
+    height: 30vh;
+    width: 45vw;
+  }
+}
+@media (max-width: 390px) {
+  .firstSection {
+    height: 50vh;
+  }
+  .firstSection img {
+    width: 42vw;
+    height: 28vh;
+  }
+  .firstSection #articleParagraf p {
+    font-size: 1.6vh;
+  }
+}
+@media (max-width: 290px) {
+  .firstSection {
+    height: 40vh;
+  }
+  .firstSection img {
+    width: 38vw;
+    height: 20vh;
+  }
+  .firstSection #articleParagraf p {
+    font-size: 1.2vh;
+  }
+}
+@media (max-width: 190px) {
+  .firstSection {
+    height: 35vh;
+  }
+  .firstSection img {
+    width: 30vw;
+    height: 16vh;
+  }
+  .firstSection #articleParagraf p {
+    font-size: 1vh;
+  }
+}
+.segundSection {
+  width: 100%;
+  height: 41vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+}
+
+@media (max-width: 790px) {
+  .segundSection {
+    flex-direction: column;
+    height: 70vh;
+  }
+}
+@media (max-width: 650px) {
+  .segundSection {
+    height: 65vh;
+  }
+}
+@media (max-width: 500px) {
+  .segundSection {
+    height: 56vh;
+  }
+}
+@media (max-width: 350px) {
+  .segundSection {
+    height: 52vh;
+  }
+}
+@media (max-width: 250px) {
+  .segundSection {
+    height: 48vh;
+  }
+}
+#articleImg2 img {
+  width: 32vw;
+  height: 35vh;
+}
+
+@media (max-width: 790px) {
+  #articleImg2 img {
+    width: 35vw;
+    margin-top: 2vh;
+  }
+}
+@media (max-width: 500px) {
+  #articleImg2 img {
+    width: 38vw;
+  }
+}
+#articleParagraf2 {
+  width: 50vw;
+  height: 30vh;
+}
+#articleParagraf2 p {
+  font-size: 1.9vw;
+  font-weight: 500;
+  color: #E4EEF1;
+}
+
+@media (max-width: 770px) {
+  #articleParagraf2 p {
+    font-size: 2.1vw;
+    margin-top: 1vh;
+  }
+}
+@media (max-width: 500px) {
+  #articleParagraf2 p {
+    font-size: 2.3vw;
+  }
+}
+.terSeticon {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD9EC;
+}
+.terSeticon img {
+  width: 18vw;
+  height: 32vh;
+}
+
+@media (max-width: 770px) {
+  .terSeticon {
+    flex-direction: column;
+    height: 145vh;
+  }
+  .terSeticon article img {
+    width: 24vw;
+    height: 34vh;
+  }
+}
+footer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FF69B4;
+}
+
+footer div {
+  width: 70vw;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer div p {
+  font-size: 13.5px;
+  color: #E4EEF1;
+  font-weight: 500;
+}
+
+footer nav {
+  width: 20vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer nav img {
+  width: 4vw;
+  height: 5.7vh;
+  cursor: pointer;
+}
+
+footer img {
+  width: 6vw;
+  height: 11vh;
+}
+
+@media (max-width: 770px) {
+  footer {
+    flex-direction: column;
+    height: 35vh;
+  }
+  footer div {
+    margin-bottom: 1vh;
+  }
+}
+@media (max-width: 570px) {
+  footer div {
+    margin-bottom: 2vh;
+  }
+  footer div p {
+    font-size: 12px;
+  }
+  footer {
+    height: 34vh;
+  }
+}
+@media (max-width: 470px) {
+  footer div p {
+    font-size: 11px;
+  }
+  footer {
+    height: 30vh;
+  }
+}
+@media (max-width: 425px) {
+  footer div p {
+    font-size: 10.5px;
+  }
+}
+footer img {
+  height: 9vh;
+}
+
+@media (max-width: 405px) {
+  footer div p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 221px) {
+  footer div p {
+    font-size: 9.5px;
+  }
+}
+#textBox {
+  display: none;
+  margin-top: 10px;
+  width: 250px;
+  height: 165px;
+  padding: 8px;
+  position: absolute;
+  background-color: #FFD9EC;
+  border: solid 2px #FF69B4;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */
